@@ -82,5 +82,4 @@ userSchema.methods.generateRefreshToken = function () {
 };
 
 module.exports.User = model("User", userSchema);
-import {v2 as cloudinary} from 'cloudinary';
           
